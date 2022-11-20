@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ed86d8ef-ea1b-4268-b21b-4b2e41e5b118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{f396df62-af39-4d46-aa6e-effdffe3c0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\gyn">
+      <UniqueIdentifier>{12e40dad-8a1c-4f2d-a1c2-c1e3f05abcc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\gyn\common">
+      <UniqueIdentifier>{8faf68e8-f690-4cfa-9a1c-8e8c9b5adb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\gyn\graphics">
+      <UniqueIdentifier>{e41ee35d-7faf-4191-bfe0-78c1a14fc615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\gyn\vulkan">
+      <UniqueIdentifier>{e520acf8-aae3-4769-a702-e114fa289c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{ec87ed2b-7a2e-474d-b40f-504ed8877196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vulkan">
+      <UniqueIdentifier>{d0ff67af-1934-44de-a3a5-4f2f2d2c323a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{219fc24d-5b8a-4a37-bea0-44142811ed57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pch">
+      <UniqueIdentifier>{10474845-7315-4070-96dc-3327e54ba6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{3aefae32-3624-4496-887f-65b4971b7264}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main\unity.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main\component_registration.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\entity.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\entity_archetype.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\entity_chunk.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\entity_manager.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\gpu.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\window.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\time_manager.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\transform.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\image_cube.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\image2d.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\graphics_engine.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\mat_mesh_query.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\mat_mesh_ref_count.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\material.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\mesh.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\model.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\point_light.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\render_asset_manager.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\render_component.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\bind_set.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\buffer.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\fence.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\framebuffer.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\gpu.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\image.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\shader.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\swapchain.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\pvs.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\helper.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\image_cube_array.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\helper.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch\pch.cpp">
+      <Filter>src\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\render_pass.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\imgui.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\threaded_ring_buffer.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\threaded_transient_pool.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\helper.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\eastl.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\error.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\job_scheduler.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\log_system.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\culling.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\command_buffer.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\gyn\unity.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\engine.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\entity.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\entity_archetype.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\entity_chunk.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\entity_manager.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\gpu.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\window.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\time_manager.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\transform.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\world.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\bind_set.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\buffer.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\common.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\fence.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\framebuffer.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\fwd.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\gpu.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\image.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\render_pass.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\shader.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\swapchain.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\common.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\image_cube.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\image2d.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\fwd.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\graphics_engine.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\mat_mesh_query.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\mat_mesh_ref_count.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\material.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\mesh.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\model.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\point_light.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\render_asset_manager.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\render_component.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\vertex.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\config.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\eastl.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\error.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\fmt.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\fwd.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\misc.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\pch.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\cast.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\pvs.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\atomic.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\job_scheduler.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\image_cube_array.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\helper.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch\pch.hpp">
+      <Filter>src\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\threaded_ring_buffer.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\common\threaded_transient_pool.hpp">
+      <Filter>include\gyn\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\log_system.hpp">
+      <Filter>include\gyn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\graphics\culling.hpp">
+      <Filter>include\gyn\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gyn\vulkan\command_buffer.hpp">
+      <Filter>include\gyn\vulkan</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

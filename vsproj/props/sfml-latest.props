@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <SFMLVersion>latest</SFMLVersion>
+    <SFMLLibDir>$(ExtLibDir)\sfml-$(SFMLVersion)</SFMLLibDir>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalLibraryDirectories>$(SFMLLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system$(ArchiveLinkSuffix);sfml-window$(ArchiveLinkSuffix);sfml-graphics$(ArchiveLinkSuffix);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="SFMLVersion">
+      <Value>$(SFMLVersion)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SFMLLibDir">
+      <Value>$(SFMLLibDir)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

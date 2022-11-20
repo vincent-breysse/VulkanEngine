@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <ShadercVersion>2019-0</ShadercVersion>
+    <ShadercLibDir>$(ExtLibDir)\shaderc-$(ShadercVersion)</ShadercLibDir>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalLibraryDirectories>$(ShadercLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>shaderc$(ArchiveLinkSuffix);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="ShadercVersion">
+      <Value>$(ShadercVersion)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ShadercLibDir">
+      <Value>$(ShadercLibDir)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

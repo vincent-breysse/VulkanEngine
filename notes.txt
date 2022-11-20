@@ -1,0 +1,7 @@
+- Remove static hash maps used for components version tracking (see UpdateLocalToWorlds)
+- GPUFeatureSupport object : Query PhysicalDevice capabilities and find the best available solution to match user request (e.g best format for X or Y usage, RGBA swizzling etc) 
+- GPU memory allocator + buffer bump allocation
+- Find a way to avoid the 'struct Position : ECSComponent' pattern. Something like 'float3* positions = chunk.GetComponentLane<float3>(PositionID);' would be better. 
+- Add a member function in eastl::hash_map to replace HashMapHasValue. Might also be the occasion to upgrade eastl
+- Try to find atomic functions operating on normal uint32/64 in eastl (see commented out atomic headers)
+- Remove all this VS .props hassle

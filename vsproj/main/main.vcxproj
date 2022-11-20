@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="reldeb|x64">
+      <Configuration>reldeb</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\eastl.cpp" />
+    <ClCompile Include="..\..\src\common\error.cpp" />
+    <ClCompile Include="..\..\src\common\helper.cpp" />
+    <ClCompile Include="..\..\src\common\threaded_ring_buffer.cpp" />
+    <ClCompile Include="..\..\src\common\threaded_transient_pool.cpp" />
+    <ClCompile Include="..\..\src\core\entity.cpp" />
+    <ClCompile Include="..\..\src\core\entity_archetype.cpp" />
+    <ClCompile Include="..\..\src\core\entity_chunk.cpp" />
+    <ClCompile Include="..\..\src\core\entity_manager.cpp" />
+    <ClCompile Include="..\..\src\core\gpu.cpp" />
+    <ClCompile Include="..\..\src\core\job_scheduler.cpp" />
+    <ClCompile Include="..\..\src\core\log_system.cpp" />
+    <ClCompile Include="..\..\src\core\window.cpp" />
+    <ClCompile Include="..\..\src\core\time_manager.cpp" />
+    <ClCompile Include="..\..\src\core\transform.cpp" />
+    <ClCompile Include="..\..\src\graphics\culling.cpp" />
+    <ClCompile Include="..\..\src\graphics\helper.cpp" />
+    <ClCompile Include="..\..\src\graphics\image_cube.cpp" />
+    <ClCompile Include="..\..\src\graphics\image2d.cpp" />
+    <ClCompile Include="..\..\src\graphics\graphics_engine.cpp" />
+    <ClCompile Include="..\..\src\graphics\image_cube_array.cpp" />
+    <ClCompile Include="..\..\src\graphics\material.cpp" />
+    <ClCompile Include="..\..\src\graphics\mat_mesh_query.cpp" />
+    <ClCompile Include="..\..\src\graphics\mat_mesh_ref_count.cpp" />
+    <ClCompile Include="..\..\src\graphics\mesh.cpp" />
+    <ClCompile Include="..\..\src\graphics\model.cpp" />
+    <ClCompile Include="..\..\src\graphics\point_light.cpp" />
+    <ClCompile Include="..\..\src\graphics\pvs.cpp" />
+    <ClCompile Include="..\..\src\graphics\render_asset_manager.cpp" />
+    <ClCompile Include="..\..\src\graphics\render_component.cpp" />
+    <ClCompile Include="..\..\src\main\component_registration.cpp" />
+    <ClCompile Include="..\..\src\main\main.cpp" />
+    <ClCompile Include="..\..\src\main\unity.cpp" />
+    <ClCompile Include="..\..\src\pch\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='reldeb|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vulkan\bind_set.cpp" />
+    <ClCompile Include="..\..\src\vulkan\buffer.cpp" />
+    <ClCompile Include="..\..\src\vulkan\command_buffer.cpp" />
+    <ClCompile Include="..\..\src\vulkan\fence.cpp" />
+    <ClCompile Include="..\..\src\vulkan\framebuffer.cpp" />
+    <ClCompile Include="..\..\src\vulkan\gpu.cpp" />
+    <ClCompile Include="..\..\src\vulkan\helper.cpp" />
+    <ClCompile Include="..\..\src\vulkan\image.cpp" />
+    <ClCompile Include="..\..\src\vulkan\imgui.cpp" />
+    <ClCompile Include="..\..\src\vulkan\render_pass.cpp" />
+    <ClCompile Include="..\..\src\vulkan\shader.cpp" />
+    <ClCompile Include="..\..\src\vulkan\swapchain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\gyn\common.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\atomic.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\cast.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\config.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\eastl.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\error.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\fmt.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\fwd.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\misc.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\pch.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\threaded_ring_buffer.hpp" />
+    <ClInclude Include="..\..\include\gyn\common\threaded_transient_pool.hpp" />
+    <ClInclude Include="..\..\include\gyn\engine.hpp" />
+    <ClInclude Include="..\..\include\gyn\entity.hpp" />
+    <ClInclude Include="..\..\include\gyn\entity_archetype.hpp" />
+    <ClInclude Include="..\..\include\gyn\entity_chunk.hpp" />
+    <ClInclude Include="..\..\include\gyn\entity_manager.hpp" />
+    <ClInclude Include="..\..\include\gyn\gpu.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\common.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\culling.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\image_cube.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\image2d.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\fwd.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\graphics_engine.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\image_cube_array.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\material.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\mat_mesh_query.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\mat_mesh_ref_count.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\mesh.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\model.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\point_light.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\pvs.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\render_asset_manager.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\render_component.hpp" />
+    <ClInclude Include="..\..\include\gyn\graphics\vertex.hpp" />
+    <ClInclude Include="..\..\include\gyn\job_scheduler.hpp" />
+    <ClInclude Include="..\..\include\gyn\log_system.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\command_buffer.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\helper.hpp" />
+    <ClInclude Include="..\..\include\gyn\window.hpp" />
+    <ClInclude Include="..\..\include\gyn\time_manager.hpp" />
+    <ClInclude Include="..\..\include\gyn\transform.hpp" />
+    <ClInclude Include="..\..\include\gyn\unity.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\bind_set.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\buffer.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\common.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\fence.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\framebuffer.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\fwd.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\gpu.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\image.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\render_pass.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\shader.hpp" />
+    <ClInclude Include="..\..\include\gyn\vulkan\swapchain.hpp" />
+    <ClInclude Include="..\..\include\gyn\world.hpp" />
+    <ClInclude Include="..\..\src\pch\pch.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{51439e72-5688-4b5a-8460-d673534d1e7e}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='reldeb|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\props\default.props" />
+    <Import Project="..\props\msvc.props" />
+    <Import Project="..\props\staticlib.props" Condition="'$(ConfigurationType)'=='StaticLibrary'" />
+    <Import Project="..\props\dynlib.props" Condition="'$(ConfigurationType)'=='DynamicLibrary'" />
+    <Import Project="..\props\app.props" Condition="'$(ConfigurationType)'=='Application'" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="PropertySheets">
+    <Import Project="..\props\debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="PropertySheets">
+    <Import Project="..\props\release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='reldeb|x64'" Label="PropertySheets">
+    <Import Project="..\props\reldeb.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="..\props\postconfig.props" />
+    <Import Project="..\props\glfw-3-3.props" />
+    <Import Project="..\props\shaderc-2019-0.props" />
+    <Import Project="..\props\sfml-latest.props" />
+    <Import Project="..\props\fmt-7-1-3.props" />
+    <Import Project="..\props\eastl-3-17-06.props" />
+    <Import Project="..\props\assimp-5-0.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <LinkIncremental />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='reldeb|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <ClCompile>
+      <OmitFramePointers>
+      </OmitFramePointers>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(SrcDir)\pch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link />
+    <Link />
+    <Link />
+    <Link>
+      <AdditionalDependencies>external$(StaticLinkSuffix);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(ConfigurationType)'=='release|x64|Application'">
+    <ClCompile>
+      <IntrinsicFunctions>
+      </IntrinsicFunctions>
+      <OmitFramePointers>
+      </OmitFramePointers>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(SrcDir)\pch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link />
+    <Link>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='release|x64'">external$(StaticLinkSuffix);%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile Condition="'$(Configuration)|$(Platform)'=='release|x64'">true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='reldeb|x64'">
+    <ClCompile>
+      <IntrinsicFunctions>
+      </IntrinsicFunctions>
+      <OmitFramePointers>
+      </OmitFramePointers>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(SrcDir)\pch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link />
+    <Link>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <AdditionalDependencies>external$(StaticLinkSuffix);%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

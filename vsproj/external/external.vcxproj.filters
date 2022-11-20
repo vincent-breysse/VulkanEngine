@@ -1,0 +1,1654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{2afb06a8-26ce-4ffc-a6a5-34de18195584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{04061917-075f-4392-a3c5-dafc28dcfe64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vex">
+      <UniqueIdentifier>{fa30428f-0565-483e-b84a-868b3fa8c2c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPIRV-Reflect">
+      <UniqueIdentifier>{57a76f61-beb3-48e2-8b2e-e584a3e146be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VkBoostrap">
+      <UniqueIdentifier>{f8f48b82-17e4-4bd2-aedc-e9dc317bc0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaderc">
+      <UniqueIdentifier>{1f5da8b8-10bd-43c5-b094-8274cf0e86ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL">
+      <UniqueIdentifier>{d3365ace-e671-41dd-a93b-9b41d0238fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\bonus">
+      <UniqueIdentifier>{ddaae2e2-b13b-431d-a83a-ca4f742991d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal">
+      <UniqueIdentifier>{2b591d10-aebd-4251-8887-99fa5cb18495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal\atomic">
+      <UniqueIdentifier>{217b97c7-8c66-4bdf-9eb6-b7629d424586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal\atomic\arch">
+      <UniqueIdentifier>{2e442618-93cb-42ed-920e-2af67ba4be0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal\atomic\compiler">
+      <UniqueIdentifier>{d56245f5-3c0f-41b3-bf52-4a742c411062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal\atomic\compiler\gcc">
+      <UniqueIdentifier>{b009fbc3-12fe-4537-92d0-eae5d3075d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal\atomic\compiler\msvc">
+      <UniqueIdentifier>{f368b96f-d48f-4c4a-943d-9def4bbd7b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal\atomic\arch\x86">
+      <UniqueIdentifier>{d19758c8-7ccc-40d3-a4ea-8762c48dd15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal\atomic\arch\arm">
+      <UniqueIdentifier>{12f2ce6b-74ea-4a52-b933-a6f21f908222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL\internal\atomic\atomic_macros">
+      <UniqueIdentifier>{9a30973b-c264-4532-a3b3-c635ca3f0127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EABase">
+      <UniqueIdentifier>{752ee1cd-0909-4754-8b52-29d77110b5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EABase\config">
+      <UniqueIdentifier>{a56f01ea-bde0-4e7a-b482-e7ff4052f2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assimp">
+      <UniqueIdentifier>{c1eedd3f-d32c-447e-a4b0-bb0f6be2d326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assimp\port">
+      <UniqueIdentifier>{2df478f7-74d8-4aa1-8577-e3e3e6ef6d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assimp\port\AndroidJNI">
+      <UniqueIdentifier>{23721999-d920-4cb6-b414-44668e601703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assimp\Compiler">
+      <UniqueIdentifier>{7798f8e1-d62d-4410-992b-265c8c79f2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmt">
+      <UniqueIdentifier>{4d799743-bf6d-4e6f-bb27-e954ea3922c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLFW">
+      <UniqueIdentifier>{f0a616d8-ef95-4d91-a97c-81c3881dd583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML">
+      <UniqueIdentifier>{1bc0644e-0899-4986-aee6-0edd445ec046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML\Graphics">
+      <UniqueIdentifier>{9324c832-b600-4e2c-ad85-ef316ddef36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML\System">
+      <UniqueIdentifier>{c7912554-56b5-4da8-837d-260a046171e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML\Window">
+      <UniqueIdentifier>{f634258a-aa9c-44d0-87a5-2543e2a399e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMath">
+      <UniqueIdentifier>{d5a286be-906b-4142-b610-ea3425830334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vulkan">
+      <UniqueIdentifier>{00866fa6-85e0-4ff6-9322-badefda10ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{22ded147-19ab-41a1-bc39-d9fcce688a07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\external\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_impl_vulkan.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\jsoncpp\jsoncpp.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\Vex\Device.cpp">
+      <Filter>Vex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\Vex\Loader.cpp">
+      <Filter>Vex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\Vex\ShaderCompiler.cpp">
+      <Filter>Vex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\Vex\Swapchain.cpp">
+      <Filter>Vex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\SPIRV-Reflect\spirv_reflect.c">
+      <Filter>SPIRV-Reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\VkBootstrap\VkBootstrap.cpp">
+      <Filter>VkBoostrap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\pch\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\external\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui_impl_glfw.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui_impl_vulkan.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\jsoncpp\json.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\jsoncpp\json-forwards.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\Vex\Config.hpp">
+      <Filter>Vex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\Vex\Device.hpp">
+      <Filter>Vex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\Vex\Loader.hpp">
+      <Filter>Vex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\Vex\ShaderCompiler.hpp">
+      <Filter>Vex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\Vex\Swapchain.hpp">
+      <Filter>Vex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SPIRV-Reflect\spirv_reflect.h">
+      <Filter>SPIRV-Reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\VkBootstrap\VkBootstrap.h">
+      <Filter>VkBoostrap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\shaderc\env.h">
+      <Filter>shaderc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\shaderc\shaderc.h">
+      <Filter>shaderc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\shaderc\shaderc.hpp">
+      <Filter>shaderc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\shaderc\spvc.h">
+      <Filter>shaderc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\shaderc\spvc.hpp">
+      <Filter>shaderc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\shaderc\status.h">
+      <Filter>shaderc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\shaderc\visibility.h">
+      <Filter>shaderc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\algorithm.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\allocator.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\allocator_malloc.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\any.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\array.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\atomic.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bitset.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bitvector.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\chrono.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\core_allocator.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\core_allocator_adapter.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\deque.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\finally.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_allocator.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_function.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_hash_map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_hash_set.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_list.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_set.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_slist.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_string.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_substring.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\fixed_vector.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\functional.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\hash_map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\hash_set.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\heap.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\initializer_list.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\intrusive_hash_map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\intrusive_hash_set.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\intrusive_list.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\intrusive_ptr.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\iterator.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\linked_array.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\linked_ptr.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\list.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\memory.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\meta.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\numeric.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\numeric_limits.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\optional.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\priority_queue.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\queue.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\random.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\ratio.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\safe_ptr.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\scoped_array.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\scoped_ptr.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\segmented_vector.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\set.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\shared_array.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\shared_ptr.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\slist.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\sort.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\span.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\stack.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\string.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\string_hash_map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\string_map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\string_view.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\tuple.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\type_traits.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\unique_ptr.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\unordered_map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\unordered_set.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\utility.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\variant.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\vector.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\vector_map.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\vector_multimap.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\vector_multiset.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\vector_set.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\version.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\weak_ptr.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\adaptors.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\call_traits.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\compressed_pair.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\fixed_ring_buffer.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\fixed_tuple_vector.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\intrusive_sdlist.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\intrusive_slist.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\list_map.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\lru_cache.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\ring_buffer.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\sort_extra.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\bonus\tuple_vector.h">
+      <Filter>EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\char_traits.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\config.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\copy_help.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\enable_shared.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\fill_help.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\fixed_pool.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\function.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\function_detail.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\function_help.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\functional_base.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\generic_iterator.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\hashtable.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\in_place_t.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\integer_sequence.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\intrusive_hashtable.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\mem_fn.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\memory_base.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\move_help.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\pair_fwd_decls.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\piecewise_construct_t.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\red_black_tree.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\smart_ptr.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\thread_support.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\tuple_fwd_decls.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\type_compound.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\type_fundamental.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\type_pod.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\type_properties.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\type_transformations.h">
+      <Filter>EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_asserts.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_base_width.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_casts.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_flag.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_flag_standalone.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_integral.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_memory_order.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_pointer.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_pop_compiler_options.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_push_compiler_options.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_size_aligned.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_standalone.h">
+      <Filter>EASTL\internal\atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_add_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_and_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_barrier.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_cmpxchg_strong.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_cmpxchg_weak.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_cpu_pause.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_exchange.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_fetch_add.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_fetch_and.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_fetch_or.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_fetch_sub.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_fetch_xor.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_load.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_memory_barrier.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_or_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_signal_fence.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_store.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_sub_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_thread_fence.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\compiler_xor_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_add_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_and_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_barrier.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_cmpxchg_strong.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_cmpxchg_weak.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_cpu_pause.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_exchange.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_add.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_and.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_or.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_sub.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_fetch_xor.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_or_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_signal_fence.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_sub_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\msvc\compiler_msvc_xor_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_add_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_and_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_barrier.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_cmpxchg_strong.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_cmpxchg_weak.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_cpu_pause.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_exchange.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_add.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_and.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_or.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_sub.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_fetch_xor.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_load.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_or_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_signal_fence.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_store.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_sub_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_thread_fence.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\compiler\gcc\compiler_gcc_xor_fetch.h">
+      <Filter>EASTL\internal\atomic\compiler\gcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_add_fetch.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_and_fetch.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_cmpxchg_strong.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_cmpxchg_weak.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_compiler_barrier.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_cpu_pause.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_exchange.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_fetch_add.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_fetch_and.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_fetch_or.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_fetch_sub.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_fetch_xor.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_load.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_memory_barrier.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_or_fetch.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_signal_fence.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_store.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_sub_fetch.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_thread_fence.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arch_xor_fetch.h">
+      <Filter>EASTL\internal\atomic\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arm\arch_arm.h">
+      <Filter>EASTL\internal\atomic\arch\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arm\arch_arm_load.h">
+      <Filter>EASTL\internal\atomic\arch\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arm\arch_arm_memory_barrier.h">
+      <Filter>EASTL\internal\atomic\arch\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arm\arch_arm_store.h">
+      <Filter>EASTL\internal\atomic\arch\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\arm\arch_arm_thread_fence.h">
+      <Filter>EASTL\internal\atomic\arch\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_add_fetch.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_and_fetch.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_cmpxchg_strong.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_cmpxchg_weak.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_exchange.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_fetch_add.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_fetch_and.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_fetch_or.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_fetch_sub.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_fetch_xor.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_load.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_memory_barrier.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_or_fetch.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_store.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_sub_fetch.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_thread_fence.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\arch\x86\arch_x86_xor_fetch.h">
+      <Filter>EASTL\internal\atomic\arch\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_add_fetch.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_and_fetch.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_base.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_cmpxchg_strong.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_cmpxchg_weak.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_compiler_barrier.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_cpu_pause.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_exchange.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_add.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_and.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_or.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_sub.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_fetch_xor.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_load.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_memory_barrier.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_or_fetch.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_signal_fence.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_store.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_sub_fetch.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_thread_fence.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL\internal\atomic\atomic_macros\atomic_macros_xor_fetch.h">
+      <Filter>EASTL\internal\atomic\atomic_macros</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\eabase.h">
+      <Filter>EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\eahave.h">
+      <Filter>EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\earesult.h">
+      <Filter>EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\eastdarg.h">
+      <Filter>EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\eaunits.h">
+      <Filter>EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\int128.h">
+      <Filter>EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\nullptr.h">
+      <Filter>EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\version.h">
+      <Filter>EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\config\eacompiler.h">
+      <Filter>EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\config\eacompilertraits.h">
+      <Filter>EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EABase\config\eaplatform.h">
+      <Filter>EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\EASTL.h" />
+    <ClInclude Include="..\..\external\stdcpp17.hpp" />
+    <ClInclude Include="..\..\external\assimp\aabb.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\ai_assert.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\anim.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\BaseImporter.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Bitmap.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\BlobIOSystem.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\ByteSwapper.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\camera.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\cexport.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\cfileio.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\cimport.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\color4.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\config.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\CreateAnimMesh.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\DefaultIOStream.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\DefaultIOSystem.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\DefaultLogger.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Defines.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\defs.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Exceptional.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Exporter.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\fast_atof.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\GenericProperty.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Hash.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Importer.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\importerdesc.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\IOStream.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\IOStreamBuffer.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\IOSystem.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\irrXMLWrapper.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\light.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\LineSplitter.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\LogAux.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Logger.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\LogStream.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Macros.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\material.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\MathFunctions.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\matrix3x3.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\matrix4x4.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\MemoryIOWrapper.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\mesh.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\metadata.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\NullLogger.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\ParsingUtils.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\pbrmaterial.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\postprocess.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Profiler.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\ProgressHandler.hpp">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\qnan.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\quaternion.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\RemoveComments.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\scene.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\SceneCombiner.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\SGSpatialSort.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\SkeletonMeshBuilder.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\SmoothingGroups.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\SpatialSort.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\StandardShapes.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\StreamReader.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\StreamWriter.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\StringComparison.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\StringUtils.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Subdivision.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\texture.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\TinyFormatter.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\types.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\vector2.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\vector3.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\version.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Vertex.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\XMLTools.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\ZipArchiveIOSystem.h">
+      <Filter>assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\port\AndroidJNI\AndroidJNIIOSystem.h">
+      <Filter>assimp\port\AndroidJNI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Compiler\poppack1.h">
+      <Filter>assimp\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Compiler\pstdint.h">
+      <Filter>assimp\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\assimp\Compiler\pushpack1.h">
+      <Filter>assimp\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\chrono.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\color.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\compile.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\core.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\format.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\format-inl.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\locale.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\os.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\ostream.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\posix.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\printf.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\fmt\ranges.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\GLFW\glfw3.h">
+      <Filter>GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\GLFW\glfw3native.h">
+      <Filter>GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Config.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\GpuPreference.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Main.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\OpenGL.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Clock.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Err.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Export.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\FileInputStream.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\InputStream.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Lock.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\MemoryInputStream.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Mutex.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\NativeActivity.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\NonCopyable.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Sleep.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\String.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Thread.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\ThreadLocal.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Time.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Utf.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Vector2.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\System\Vector3.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Clipboard.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Context.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\ContextSettings.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Cursor.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Event.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Export.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\GlResource.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Joystick.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Keyboard.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Mouse.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Sensor.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Touch.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\VideoMode.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Vulkan.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\Window.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\WindowBase.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\WindowHandle.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Window\WindowStyle.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\BlendMode.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\CircleShape.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Color.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\ConvexShape.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Drawable.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Export.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Font.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Glsl.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Glyph.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Image.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Rect.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\RectangleShape.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\RenderStates.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\RenderTarget.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\RenderTexture.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\RenderWindow.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Shader.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Shape.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Sprite.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Text.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Texture.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Transform.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Transformable.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\Vertex.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\VertexArray.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\VertexBuffer.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\SFML\Graphics\View.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\VMath\vmath.hpp">
+      <Filter>VMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\VMath\vmath-simd.hpp">
+      <Filter>VMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\GLSL.std.450.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\spirv.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\spirv.hpp">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vk_icd.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vk_layer.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vk_platform.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vk_sdk_platform.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan.hpp">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_android.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_core.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_fuchsia.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_ggp.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_ios.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_macos.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_metal.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_vi.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_wayland.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_win32.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_xcb.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_xlib.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\vulkan\vulkan_xlib_xrandr.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\pch\pch.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\external\assimp\.editorconfig">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\color4.inl">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\config.h.in">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\material.inl">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\matrix3x3.inl">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\matrix4x4.inl">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\quaternion.inl">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\SmoothingGroups.inl">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\vector2.inl">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\assimp\vector3.inl">
+      <Filter>assimp</Filter>
+    </None>
+    <None Include="..\..\external\SFML\System\String.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\..\external\SFML\System\Thread.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\..\external\SFML\System\ThreadLocalPtr.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\..\external\SFML\System\Utf.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\..\external\SFML\System\Vector2.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\..\external\SFML\System\Vector3.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\..\external\SFML\Graphics\Glsl.inl">
+      <Filter>SFML\Graphics</Filter>
+    </None>
+    <None Include="..\..\external\SFML\Graphics\Rect.inl">
+      <Filter>SFML\Graphics</Filter>
+    </None>
+    <None Include="..\..\external\vulkan\spirv.hpp11">
+      <Filter>vulkan</Filter>
+    </None>
+    <None Include="..\..\external\vulkan\spirv.json">
+      <Filter>vulkan</Filter>
+    </None>
+    <None Include="..\..\external\vulkan\spirv.lua">
+      <Filter>vulkan</Filter>
+    </None>
+    <None Include="..\..\external\vulkan\spirv.py">
+      <Filter>vulkan</Filter>
+    </None>
+  </ItemGroup>
+</Project>

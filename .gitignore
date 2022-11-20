@@ -1,0 +1,12 @@
+
+.vs/
+
+bin/
+
+temp/
+
+subrepos/
+
+.tool/
+
+working/imgui.ini

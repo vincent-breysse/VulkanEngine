@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <EASTLVersion>3-17-06</EASTLVersion>
+    <EASTLLibDir>$(ExtLibDir)\eastl-$(EASTLVersion)</EASTLLibDir>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile />
+    <ClCompile />
+    <Link>
+      <AdditionalDependencies>EASTL$(StaticLinkSuffix);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(EASTLLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="EASTLVersion">
+      <Value>$(EASTLVersion)</Value>
+    </BuildMacro>
+    <BuildMacro Include="EASTLLibDir">
+      <Value>$(EASTLLibDir)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <RootDir>$(SolutionDir)</RootDir>
+    <ExtLibRootDir>$(RootDir)extlib</ExtLibRootDir>
+    <ExtIncludeDir>$(RootDir)external</ExtIncludeDir>
+    <SrcDir>$(RootDir)src</SrcDir>
+    <IncludeDir>$(RootDir)include</IncludeDir>
+    <BinDir>$(RootDir)bin</BinDir>
+    <TestDir>$(RootDir)test</TestDir>
+    <TempDir>$(RootDir)temp</TempDir>
+    <VsprojDir>$(RootDir)vsproj</VsprojDir>
+    <WorkingDir>$(RootDir)working</WorkingDir>
+    <LibStaticFlag>-s</LibStaticFlag>
+    <LibDebugFlag>-d</LibDebugFlag>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutDir>$(BinDir)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(TempDir)\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <_PropertySheetDisplayName>default</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(IncludeDir);$(ExtIncludeDir);$(SrcDir)\$(ProjectName);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.hpp</PrecompiledHeaderFile>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <DisableSpecificWarnings>4324;4251;4127;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors>4715</TreatSpecificWarningsAsErrors>
+      <ObjectFileName>$(IntDir)x/x/%(RelativeDir)</ObjectFileName>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(OutDir);$(ExtLibRootDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="RootDir">
+      <Value>$(RootDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ExtLibRootDir">
+      <Value>$(ExtLibRootDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ExtIncludeDir">
+      <Value>$(ExtIncludeDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SrcDir">
+      <Value>$(SrcDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="IncludeDir">
+      <Value>$(IncludeDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BinDir">
+      <Value>$(BinDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="TestDir">
+      <Value>$(TestDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="TempDir">
+      <Value>$(TempDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="VsprojDir">
+      <Value>$(VsprojDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="WorkingDir">
+      <Value>$(WorkingDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LibStaticFlag">
+      <Value>$(LibStaticFlag)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LibDebugFlag">
+      <Value>$(LibDebugFlag)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
