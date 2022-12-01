@@ -1,7 +1,9 @@
 ### Overview 
 My hobby rendering engine. Mostly worked on it in mid-2021 and stopped since then.  
 The code is a bit messy but the output is kind of pretty :3 Also decently fast for a CPU driven renderer.  
-Note that all the 65 light sources in the demo below are casting **realtime shadows**. Nothing is baked.
+Note that all the 65 light sources in the demo below are casting **realtime shadows**. Nothing is baked.  
+
+Demo running with an i9-10980XE CPU + RX 6900 XT GPU.
 
 https://user-images.githubusercontent.com/45799308/202927609-f58dbcd5-c1ef-42e8-a690-84de3320f810.mp4
 
@@ -42,7 +44,7 @@ https://user-images.githubusercontent.com/45799308/202927609-f58dbcd5-c1ef-42e8-
   - Shader runtime compilation. Based on shaderc
   - Shader reflection. Based on SPIRV-Reflect
   - Various facilities
-- Unity to json scene conversion
+- Unity scene to json conversion
 
 ### Dependencies
 - Vulkan 1.1
